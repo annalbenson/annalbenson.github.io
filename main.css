@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body{
 	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
 }
 
 h1 {
 	color: white;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
 
 p {
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 }
