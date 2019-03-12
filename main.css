@@ -23,3 +23,15 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 }
+
+p.bio{
+	position: relative;
+	right: 250px;
+	
+}
+
+img.headshot{
+	position: relative;
+	width: 250px;
+	
+}
