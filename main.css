@@ -18,20 +18,78 @@ h2 {
 	text-align: left;
 }
 
+h2.bio {
+	text-align: center;
+}
+
+
 p {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
+	font-size: 	15px;
+}
+
+p.contact {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 15px;
 }
 
 p.bio{
-	position: relative;
-	right: 250px;
-	
+	vertical-align: middle ;
 }
 
-img.headshot{
-	position: relative;
-	width: 100px;
-	
+a {
+	color: silver;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	text-align: center;
 }
+
+img{
+	border-radius: 15px;
+	max-width: 95%;
+	vertical-align: middle;
+}
+
+ul {
+	color: lightgreen;
+	list-style-type: circle;
+}
+
+
+
+/* two column layout; source : https://www.w3schools.com/howto/howto_css_two_columns.asp */
+
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  /* end */
+
+/* button; source : https://www.w3schools.com/css/css3_buttons.asp */
+
+.button {
+	background-color: lightgreen; /* Green */
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 15px;
+  }
+
+/* end */
+
