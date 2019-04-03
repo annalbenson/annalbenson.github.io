@@ -18,15 +18,15 @@ h2 {
 	text-align: left;
 }
 
-h2.bio {
+h2.centered {
 	text-align: center;
 }
-
 
 p {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 	15px;
+	margin: 0px 10px;
 }
 
 p.contact {
@@ -38,6 +38,16 @@ p.contact {
 
 p.bio{
 	vertical-align: middle ;
+	margin: 0px 10px;
+}
+
+p.bold{
+	font-weight: bold;
+	
+}
+span.italic{
+	font-style: italic;  
+	font-weight: normal;
 }
 
 a {
@@ -58,11 +68,16 @@ ul {
 	list-style-type: circle;
 }
 
+div.centered{
+	text-align: center;
+	margin: 5px 5px;
+}
+
 /* two column layout; source : https://www.w3schools.com/howto/howto_css_two_columns.asp */
 
 .column {
 	float: left;
-	width: 50%;
+	width: 33%;
   }
   
   /* Clear floats after the columns */
@@ -87,6 +102,7 @@ ul {
 	display: inline-block;
 	font-size: 15px;
 	border-radius: 15px;
+	margin: 5px 5px;
   }
 
 /* end */
